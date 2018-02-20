@@ -1,0 +1,110 @@
+*{
+	margin:0;
+}
+
+h1 {
+    text-align: center
+}
+
+h3 {
+       text-align: center;
+}
+
+body{ 
+    background: url("http://kathwalters.com.au/wp-content/uploads/2016/09/notebook-1280538_1280.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+ 
+.button {
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+        
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid lightgreen;
+    position:relative;
+    transition: .5s ease;
+    top: 15%;
+    left: 65%;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: Green;
+    text-decoration:none;
+}
+
+#nav{
+	width: 110%;
+	height:7.5%;
+	background-size: cover;
+	position: fixed;
+	z-index: 2;
+}
+
+#nav_wrapper{
+	font-family: helvetica;
+	font-size: 125%;
+	height: 100%;
+	width: 110%;
+	background: #525252;
+	margin-left: -10px;
+	margin-right: 10px;
+	margin-top: -8px;
+}
+
+#nav_wrapper ul li {
+	margin-right: 2%;
+	list-style: none;
+	display: inline;
+	font-weight: bold;
+	padding: 30px; 
+}
+
+#nav_wrapper a{
+	color: white;
+	text-decoration: none;
+}
+
+#nav_wrapper ul li:hover{
+	background: #94D5F1;
+	transition:all 1s;
+
+}
+
+.container{
+    position:absolute;
+    top:30%;
+    left:5%;
+}
+
+.container1{
+    margin-left: 0%;
+    position:absolute;
+    top:33%;
+    left:30%;
+    color: white;
+}
+
+.container2{
+    position:absolute;
+    top:80%;
+    left:60%;
+}
+
+.container4{
+    position:absolute;
+    top:15%;
+    left:50%;
+}
+
+           
+           
