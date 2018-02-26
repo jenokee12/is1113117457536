@@ -2,17 +2,27 @@
 	margin:0;
 }
 
-h1 {
-    text-align: center
-}
-
-h3 {
-       text-align: center;
-}
 
 body{ 
     background: url("http://kathwalters.com.au/wp-content/uploads/2016/09/notebook-1280538_1280.jpg") no-repeat center fixed;
     background-size: cover;
+}
+
+.heading {
+    font-family: Montserrat;
+    position: absolute;
+    top: 12%;
+    left: 36%;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+hr{
+    position:absolute;
+    top:23%;
+    left:40%;
+    width:20%;
 }
  
 .button {
@@ -80,31 +90,13 @@ body{
 
 }
 
-.container{
-    position:absolute;
-    top:30%;
-    left:5%;
+#outline {
+    visibility: hidden;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    height:100%;
+    width:100%;
+    cursor: auto;
+    
 }
-
-.container1{
-    margin-left: 0%;
-    position:absolute;
-    top:33%;
-    left:30%;
-    color: white;
-}
-
-.container2{
-    position:absolute;
-    top:80%;
-    left:60%;
-}
-
-.container4{
-    position:absolute;
-    top:15%;
-    left:50%;
-}
-
-           
-           

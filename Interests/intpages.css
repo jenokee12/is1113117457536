@@ -1,26 +1,173 @@
+*{
+	margin:0;
+}
+
+#par1 {
+    font-size: 30px;
+    font-family: helvetica;
+    position: relative;
+    height: 70px;
+    width: 300px;
+    top: -32%;
+    left: 70%;
+    text-align: left;
+}
+
+#par2{
+    font-size: 30px;
+    font-family: helvetica;
+    position: relative;
+    height: 70px;
+    width: 300px;
+    top: -7.5%;
+    left: 70%;
+    text-align: right;
+}
+
+iframe{
+    position: absolute;
+    top: 15%;
+    left: 3%;
+    float: left;
+}
 
 #section1{
 
-   background-color: rgb(238, 0, 90);
+   background: url("https://wallpaperscraft.com/image/sky_minimalism_clouds_74438_3840x2400.jpg") no-repeat center fixed;
+   background-size: cover;
 
+}
+
+hr{
+position: relative;
+	height: 2px;
+	width: 400px;
+	top: -0.5%;
+	left: 28%;
+}
+
+.paragraph{
+    position: relative;
+    top: -5%;
+    left: 15%;
+    height: 70%;
+    width: 70%;
 }
 
 #section2{
 
-    background-color: rgb(44, 62, 80);
+   background: url("https://wallpaperscraft.com/image/sky_minimalism_clouds_74438_3840x2400.jpg") no-repeat center fixed;
+   background-size: cover;
 
 }
 
 #section3{
 
-    background-color: rgb(51, 153, 204);
+   background: url("https://wallpaperscraft.com/image/sky_minimalism_clouds_74438_3840x2400.jpg") no-repeat center fixed;
+   background-size: cover;
 
 }
 
 .section{
-
     text-align: center;
-
     color: white;
-
 }
+
+#button{
+    position: absolute;
+    height: 10px;
+    width: 250px;
+    top: 80%;
+    left: 41%;
+}
+
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	color: #fff;
+	font-size:20px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	transition: all 1s ease;
+}
+a.animated-button:link:after, a.animated-button:visited:after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 150%;
+	z-index: -1;
+	transition: all 0.75s ease 0s;
+}
+a.animated-button:link:hover, a.animated-button:visited:hover {
+	color: #FFF;
+	text-shadow: none;
+}
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+	height: 450%;
+}
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	border-radius: 5;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	transition: all 1s ease;
+}
+
+/* Victoria Buttons */
+a.animated-button.victoria-two {
+	border: 2px solid #D24D57;
+}
+a.animated-button.victoria-two:after {
+	background: #D24D57;
+	transform: translateX(-50%) translateY(-50%) rotate(25deg);
+}
+     
+section {
+ display: inline-block;
+ margin:  0.25rem;
+ padding:  1rem;
+ width:  25%;
+ height: 10%;
+ background:  #efefef;
+ position: relative;
+ top: 25%;
+ left: 5%;
+}
+
+
+#par3 {
+ margin:  1rem 0;
+ color: #525252;
+ text-align: center;
+}
+
+h1 {
+    font-family: helvetica;
+    text-align: center;
+    position: relative;
+    top: -25%;
+    font-size: 20px;
+}
+
+
+
+   
+            
+           

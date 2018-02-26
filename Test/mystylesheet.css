@@ -1,0 +1,181 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+  margin: 0;
+  background: url("https://www.hdwallpapers.in/download/apple_mac_os_x_el_capitan-2560x1440.jpg") no-repeat center fixed;
+  background-size: cover;
+  
+}
+
+html {
+   min-height:100%;
+   position:relative;
+}
+
+.container {
+    font-size: 85px;
+    font-family: helvetica;
+    text-align: center;
+    color: #808080;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+
+footer {
+    opacity: 0.8;
+    background-color: #525252;
+    font-family: helvetica;
+    color: white;
+    text-align: center;
+    position:absolute;
+    bottom:0;
+    width:110%;
+    height:20px;
+}
+
+#centertext {
+    font-size: 60px;
+    position: relative;
+}
+
+#nav{
+	width: 100%;
+	height:7.5%;
+	background-size: cover;
+	position: fixed;
+	z-index: 2;
+	opacity: 0.65;
+}
+
+#nav_wrapper{
+	font-family: helvetica;
+	font-size: 125%;
+	height: 100%;
+	width: 110%;
+	background: #525252;
+	margin-left: -10px;
+	margin-right: 10px;
+	margin-top: -8px;
+}
+
+#nav_wrapper ul li {
+	margin-right: 2%;
+	list-style: none;
+	display: inline;
+	font-weight: bold;
+	padding: 30px; 
+	left: 10%;
+}
+
+#nav_wrapper a{
+	color: white;
+	text-decoration: none;
+}
+
+#nav_wrapper ul li:hover{
+	background: #94D5F1;
+	transition:all 1s;
+
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: black;
+  padding: 1px;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul li {
+  width: 180px;
+}
+
+nav ul li ul li a {
+  padding: 18px 14px;
+}
+
+nav ul li ul li a:hover {
+  background-color: #f3f3f3;
+}
+
+       
+        <h1 align = center class="mainheading" style="background-color:powderblue; color:white; font-family:cambria; font-size:300%"> Cloud Computing</h1>
+        
+        <h2 style="font-family:cambria;">What is cloud computing?</h2>
+        <p  style="font-family:cambria;" >Cloud Computing, in very simple terms, is a place where information technology(IT) resources 
+        such as computer hardware, operating systems, networks, storage, databases, and even entire
+        software applications are available instantly, on-demand
+       
+        </br>
+        </br>
+       
+        By using cloud storage, you don't have to store the information on your own hard drive.
+        Instead, you can access it from any location and download it onto any device of your choice,
+        including laptops, tablets, or smartphones. You can also edit files, such as Word 
+        documents or PowerPoint presentations, simultaneously with other users, making it easier to work 
+        away from the office.
+        </p>
+        
+        <h2 style="font-family:cambria;">How does it work?</h2>
+        
+        <p  style="font-family:cambria;">
+        Cloud computing occurs when computer processes and calculations take place remotely. Customers 
+        who sign up to cloud services access them online, via either specialised computer programs or in
+        web browsers, where they input the required variables for a task. Vast and powerful remote server 
+        farms then take care of the heavy lifting and number crunching.
+
+        </br>
+        </br>
+
+        This has all been made possible thanks to a dramatic increase in internet speeds that we have 
+        seen over the past few years. High speed broadband and fibre optic networks, coupled with the
+        immense popularity of content delivery networks and network optimisation technologies have allowed rich, 
+        data heavy platforms to be delivered and accessed across the internet as opposed to being delivered via 
+        traditional physical means such as DVDs and floppy discs.
+        </p>
+        
+        <h2 style="font-family:cambria;">Advantages</h2>
+        
+        <p  style="font-family:cambria;">
+         1.Worldwide Access: Cloud computing increases mobility, as you can access your documents from any device 
+         in any part of the world. For businesses, this means that employees can work from home or on business trips,
+         without having to carry around documents. This increases productivity and allows faster exchange of information. 
+         Employees can also work on the same document without having to be in the same place.
+        
+        </br>
+        </br>
+        
+         2.More Storage: In the past, memory was limited by the particular device in question. If you ran out of memory, 
+        you would need a USB drive to backup your current device. Cloud computing provides increased storage, so you won't
+        have to worry about running out of space on your hard drive.
+        
+        </br>
+        </br>
+        
+         3.Easy Set-Up: You can set up a cloud computing service in a matter of minutes. Adjusting your individual settings, 
+         such as choosing a password or selecting which devices you want to connect to the network, is similarly simple. 
+         After that, you can immediately start using the resources, software, or information in question.
+         
+         </br>
+         </br>
+         
+         4.Automatic Updates: The cloud computing provider is responsible for making sure that updates are available, you just 
+         have to download them. This saves you time, and furthermore, you don't need to be an expert to update your device; the 
+         cloud computing provider will automatically notify you and provide you with instructions.
+         
+         </br>
+         </br>
+         
+         5.Reduced Cost: Cloud computing is often inexpensive. The software is already installed online, so you won't need to 
+         install it yourself. There are numerous cloud computing applications available for free, such as Dropbox, and increasing 
+         storage size and memory is affordable. If you need to pay for a cloud computing service, it is paid for incrementally on 
+         a monthly or yearly basis. By choosing a plan that has no contract, you can terminate your use of the services at any time; 
+         therefore, you only pay for the services when you need them.
+        </p>
