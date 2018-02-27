@@ -11,22 +11,6 @@ body, html {
   text-align: center;
   background: url("http://kathwalters.com.au/wp-content/uploads/2016/09/notebook-1280538_1280.jpg") no-repeat center fixed;
   background-size: cover;
-  
-}
-
-#education {
-  font-family: helvetica;
-  color: #CBCBCB;
-}
-
-h1 , h3 {
-    font-size: 50px;
-}
-
-p , p a{
-  font-family: helvetica;
-  font-size: 30px;
-  color: black;
 }
 
 p a:hover{
@@ -43,12 +27,12 @@ p a:hover{
   font-size: 30px;
   list-style: none;
   color: black;
-  cursor: pointer;
   text-decoration: none;
 }
 
 .container ul li:hover {
-    color: white;
+    color: inherit;
+    cursor: text;
 }
 
 #side1 , #side2 , #side3 {
@@ -61,11 +45,13 @@ nav {
   height: 60px;
   background-color: #525252;
   opacity: 0.85;
+  z-index: 4;
 }
 
 nav ul {
   float: left;
   margin: 0px;
+  z-index: 4;
 }
 
 nav ul li {
@@ -73,6 +59,7 @@ nav ul li {
   list-style: none;
   position: relative;
   margin: 6px;
+  z-index: 4;
 }
 
 nav ul li a {
@@ -82,6 +69,7 @@ nav ul li a {
   font-size: 20px;
   padding: 13px 14px;
   text-decoration: none;
+  z-index: 4;
 }
 
 nav ul li:hover a {
@@ -91,6 +79,7 @@ nav ul li:hover a {
     padding: 8px;
     border-radius: 2px;
     margin: 6px;
+    z-index: 4;
 }
 
 nav ul li ul {
@@ -101,25 +90,30 @@ nav ul li ul {
   color: #525252;
   text-decoration: none;
   cursor: pointer;
+  z-index: 4;
 }
 
 nav ul li:hover ul {
   display: block;
   text-decoration: none;
   color: white;
+    z-index: 4;
 }
 
 nav ul li ul li {
   width: 160px;
+  z-index: 4;
 }
 
 nav ul li ul li a {
   padding: 10px 8px;
+  z-index: 4;
 }
 
 nav ul li ul li a:hover {
    background-color: #f3f3f3;
    color: #535353;
+     z-index: 4;
 }
 
 
@@ -138,17 +132,15 @@ img{
 }
 
 
-#education {
+#experience {
     width: 1200px;
     height: 550px;
     position: absolute;
     top: 26%;
-    left: 20%;
-}
-
-inside {
-    position: relative;
-    left: 5%;
+    left: 25%;
+    font-family: helvetica;
+    overflow: scroll;
+    z-index: 1;
 }
 
 #btnNext {
@@ -162,8 +154,8 @@ inside {
     font-size: 30px;
 }
 
-#books {
-  position: absolute;
-  top: 10%;
-  left: 62%;
+#experience ul {
+    font-size: 20px;
+    position: relative;
+    left: 10%;
 }

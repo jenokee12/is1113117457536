@@ -1,3 +1,7 @@
+*{
+	margin:0;
+	padding: 0;
+}
 
 body, html {
   margin: 0px;
@@ -5,23 +9,22 @@ body, html {
   width: 100%;
   height:100%;
   text-align: center;
-    background: url("http://kathwalters.com.au/wp-content/uploads/2016/09/notebook-1280538_1280.jpg") no-repeat center fixed;
-    background-size: cover;
-   font-family: Arial;
+  background: url("http://kathwalters.com.au/wp-content/uploads/2016/09/notebook-1280538_1280.jpg") no-repeat center fixed;
+  background-size: cover;
   
 }
 
 h1 {
   position: relative;
   top: 0%;
-  left: -10%;
-  font-size: 70px;
+  left: 7%;
+  font-size: 100px;
 }
 
 p{
   position: relative;
   top: -3.5%;
-  left: -17%;
+  left: 7%;
   font-size: 30px;
   color: #dee2e6;
 }
@@ -29,7 +32,7 @@ p{
 .p1{
   position: relative;
   top: 1.5%;
-  left: -18.5%;
+  left: 7%;
   font-size: 30px;
   color: #dee2e6;
 }
@@ -37,7 +40,7 @@ p{
 .p2{
   position: relative;
   top: 0.5%;
-  left: -22.5%;
+  left: 7%;
   font-size: 30px;
   color: #dee2e6;
 }
@@ -45,7 +48,7 @@ p{
 .p3{
   position: relative;
   top: 0.5%;
-  left: -25%;
+  left: 7%;
   font-size: 30px;
   color: #dee2e6;
 }
@@ -53,7 +56,7 @@ p{
 .p4{
   position: relative;
   top: 0.5%;
-  left: -21%;
+  left: 7%;
   font-size: 30px;
   color: #dee2e6;
 }
@@ -63,19 +66,20 @@ p{
   height: 100px;
   width: 50px;
   top: 37%;
-  left: -2%;
-  font-size: 25px;
+  left: 0%;
+  font-size: 30px;
   list-style: none;
   color: black;
+  cursor: pointer;
+  text-decoration: none;
 }
 
-#side1 , #side2 , #side3 {
-margin: 50px;
+#side1 , #side2 , #side3 , #side1 a , #side2 a , #side3 a {
+  margin: 50px;
+  text-decoration: none;
+
 }
 
-.container ul li:hover {
-  color: #dee2e6;
-}
 
 nav {
   width: 100%;
@@ -86,38 +90,44 @@ nav {
 
 nav ul {
   float: left;
+  margin: 0px;
 }
 
 nav ul li {
   float: left;
+  margin: 6px;
   list-style: none;
   position: relative;
-  margin: 6;
 }
 
-nav ul li {
-  float: left;
-  list-style: none;
-  position: relative;
-  margin: 6;
-}
 
-nav ul li a , nav ul li a:hover{
-  text-decoration: none;
+nav ul li a {
   display: block;
   font-family: helvetica;
   color: white;
   font-size: 20px;
   padding: 13px 14px;
+  text-decoration: none;
+}
+
+nav ul li:hover a {
+    text-decoration: none;
+    color: white;
+    background-color: powderblue;
+    padding: 8px;
+    border-radius: 2px;
+    margin-top: 2px;
+    margin: 6px;
 }
 
 nav ul li ul {
   display: none;
   position: absolute;
-  background-color: #525252;
+  background-color: black;
   padding: 1px;
-  opacity: 0.95;
-  overflow: visible;
+  color: #525252;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 nav ul li:hover ul {
@@ -128,15 +138,16 @@ nav ul li:hover ul {
 
 nav ul li ul li {
   width: 160px;
+  margin: 0px;
 }
 
 nav ul li ul li a {
-  padding: 18px 10px;
+  padding: 8px 8px;
 }
 
 nav ul li ul li a:hover {
-  background-color: #f3f3f3;
-  color: #535353;
+   background-color: #f3f3f3;
+   color: #535353;
 }
 
 section{
@@ -149,7 +160,8 @@ section{
 
 img{
     position: relative;
-    top: 2%;
+    top: 5%;
+    left: 9%;
 }
 
 #wordpress{
@@ -177,15 +189,26 @@ img{
 .images{
   position: absolute;
   top: 70%;
-  left: 9.8%;
+  left: -1%;
 }
 
 #about {
     width: 1200px;
     height: 550px;
-    overflow: auto;
     position: absolute;
-    top: 20%;
+    top: 26%;
     left: 15%;
+}
+
+#btnNext {
+  position: absolute;
+  top: 92%;
+  left: 50%;
+  height: 50px;
+  width: 120px;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 30px;
+  
 }
 
