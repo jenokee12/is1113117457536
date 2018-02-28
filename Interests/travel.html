@@ -1,71 +1,84 @@
-
 <!DOCTYPE html>
 
 <html>
     <head>
+        
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <title>Travel</title>
 
-        <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
-
-        <link rel="stylesheet" href="int_pages.css" type="text/css" />
-
-        
-        <!--Adding Bootstrap-->
-
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-
-
-        <!--Page Piling-->
-
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css" />
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
-
-        
-
-        <script type = "text/javascript">
-
-              $(document).ready(function() {
-
-                $('#pagepiling').pagepiling({
-
-                });
-
-             });
-
-        </script>
+        <link rel="stylesheet" href="travel.css" type="text/css" />
 
     </head>
     <body>
-
         
-        <div id="pagepiling">
-
-            <div class="section" id="section1">Most travelled to: India (Duh!)</div>
-
-        	<div class="section" id="section2">Want to visit: Japan</div>
-
-        	<div class="section" id="section3">
-
-        	    Settle in: Australia
-
-        	    <br/>
-
-        	    <a href="../homepage.html" class="btn btn-success">Home</a>
-         	</div>
-        </div> 
-
+        <nav>
+          <ul>
+              <li><a href="../General/homepage.html" style="text-decoration:none;">Home</a></li>
+              <li><a href="../CV/cv_pageone.html" style="text-decoration:none;">Curriculum Vitae</a></li>
+              <li><a href="../General/homepage.html" style="text-decoration:none;">My Interests</a>
+                    <ul>
+                          <li><a href="../Interests/sports.html">Sports</a></li>
+                          <li><a href="../Interests/travel.html">Travel</a></li>
+                          <li><a href="../Interests/cloud.html">iCloud</a>
+                    </ul>
+              </li>
+              <li><a href="../Ebusiness/Ebus1.php">E-Business</a></li>
+          </ul>
+        </nav>
+        
+        <h1>Most travelled to: Cambrils , Spain</h1>
+        
+        <div class="container">
+            <!-- img one -->
+            <a href="#one">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/0e/63/13/fd/villa-bonita.jpg" align="left" width="25%">
+            </a>
+            
+            <!-- img one hidden -->
+            <a href="#_" class="lb" id="one">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/0e/63/13/fd/villa-bonita.jpg">
+            </a>
+            
+            <!-- img two -->
+            <a href="#two">
+            <img src="https://www.toocamp.com/medias/campings/large/camping-Cambrils-Park-33567-7.jpeg" align="left" width="25%">
+            </a>
+            
+            <!-- img two hidden -->
+            <a href="#_" class="lb" id="two">
+            <img src="https://www.toocamp.com/medias/campings/large/camping-Cambrils-Park-33567-7.jpeg">
+            </a>
+            
+            <!-- img three -->
+            <a href="#three">
+            <img src="https://www.cambrils.com/root/contenidos/3/5/0/3501/cambrils-park-resort-5-amp.jpg" align="left" width="25%">
+            </a>
+            
+            <!-- img three hidden -->
+            <a href="#_" class="lb" id="three">
+            <img src="https://www.cambrils.com/root/contenidos/3/5/0/3501/cambrils-park-resort-5-amp.jpg">
+            </a>
+            
+            <!-- img four -->
+            <a href="#four">
+            <img src="https://familyresort.cambrilspark.com/content/imgsxml/galerias/panel_fototexto/1/big-beach-club6-cambrils-park-resort171.jpg" align="left" width="25%">
+            </a>
+            
+            <!-- img four hidden -->
+            <a href="#_" class="lb" id="four">
+            <img src="https://familyresort.cambrilspark.com/content/imgsxml/galerias/panel_fototexto/1/big-beach-club6-cambrils-park-resort171.jpg">
+            </a>
+            </div>
+            
+            <div class="pagination">
+              <a href="#">&laquo;</a>
+              <a href="travel.html" class="active">1</a>
+              <a href="travel1.html">2</a>
+              <a href="travel2.html">3</a>
+              <a href="#">&raquo;</a>
+            </div>
     </body>
 </html>
