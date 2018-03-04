@@ -1,0 +1,216 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+html , body{
+    height: 100%;
+    max-width: 100%;
+    font-family: raleway;
+}
+
+.section1 {
+  background: url("http://getwallpapers.com/wallpaper/full/1/0/e/545924.jpg") no-repeat center fixed;
+  height: 400px;
+  width: 100%;
+}
+
+#logo {
+  position: absolute;
+  top: 14%;
+  left: 41.5%;
+}
+
+.container {
+  width: 300px;
+  height: 280px;
+  background-color: lightgrey;
+  opacity: 0.75;
+  border-radius: 5px;
+  position: absolute;
+  top: 12%;
+  left: 40%;
+}
+
+.section2 {
+  height: 400px;
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+}
+
+.mission {
+  width: 50%;
+  height: 50%;
+  color: #525252;
+  font-family: raleway;
+  font-size: 23px;
+  position: absolute;
+  top: 15%;
+  left: 43%;
+}
+
+.team {
+  width: 50%;
+  height: 50%;
+  color: #fff;
+  font-family: raleway;
+  font-size: 23px;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
+
+#offices {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
+
+#workers {
+  position: absolute;
+  top: 15%;
+  left: 65%;
+}
+
+.section3 {
+  background: url("http://www.kinyu-z.net/data/wallpapers/96/1039317.jpg") no-repeat center fixed;
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+
+.section4 {
+  height: 200px;
+  width: 100%;
+  position: relative;
+  background-color: #535353;
+}
+
+#head {
+  position: absolute;
+  top: 4%;
+  left: 17%;
+}
+
+#mail {
+  position: absolute;
+  top: 32%;
+  left: 8%;
+}
+
+#phone {
+  position: absolute;
+  top: 65%;
+  left: 8%;
+}
+
+#house {
+  position: absolute;
+  top: 32%;
+  left: 38%;
+}
+
+.email {
+  position: absolute;
+  top: 38%;
+  left: 13%;
+  color: lightgrey;
+  font-family: helvetica;
+  font-size: 25px;
+}
+
+.telephone {
+  position: absolute;
+  top: 70%;
+  left: 13%;
+  color: lightgrey;
+  font-family: helvetica;
+  font-size: 25px;
+}
+
+.home {
+  position: absolute;
+  top: 35%;
+  left: 44%;
+  color: lightgrey;
+  font-family: helvetica;
+  font-size: 24px;
+}
+
+p{
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  color: lightgrey;
+}
+
+#twitter {
+  position: absolute;
+  top: 34%;
+  left: 70%;
+}
+
+#linkedin {
+  position: absolute;
+  top: 64%;
+  left: 69.7%;
+}
+
+.twitter {
+  position: absolute;
+  top: 38%;
+  left: 76%;
+  color: lightgrey;
+  font-family: helvetica;
+  font-size: 25px;
+}
+
+.linkedin {
+  position: absolute;
+  top: 69%;
+  left: 76%;
+  color: lightgrey;
+  font-family: helvetica;
+  font-size: 24px;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: #525252;
+  opacity: 0.7;
+}
+
+nav ul {
+  float: left;
+  margin: 0px;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+  margin: 6px;
+}
+
+nav ul li a {
+  display: block;
+  font-family: helvetica;
+  color: white;
+  font-size: 20px;
+  padding: 13px 14px;
+  text-decoration: none;
+}
+
+nav ul li:hover a {
+    text-decoration: none;
+    color: white;
+    background-color: powderblue;
+    padding: 8px;
+    border-radius: 2px;
+    margin-top: 2px;
+    margin: 6px;
+}
+
+

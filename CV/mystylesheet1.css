@@ -17,14 +17,14 @@ body, html {
 h1 {
   position: relative;
   top: 0%;
-  left: 7%;
+  left: -15%;
   font-size: 100px;
 }
 
 p{
   position: relative;
   top: -3.5%;
-  left: 7%;
+  left: -23%;
   font-size: 30px;
   color: #dee2e6;
 }
@@ -32,7 +32,7 @@ p{
 .p1{
   position: relative;
   top: 1.5%;
-  left: 7%;
+  left: -25%;
   font-size: 30px;
   color: #dee2e6;
 }
@@ -40,7 +40,7 @@ p{
 .p2{
   position: relative;
   top: 0.5%;
-  left: 7%;
+  left: -29.5%;
   font-size: 30px;
   color: #dee2e6;
 }
@@ -48,7 +48,7 @@ p{
 .p3{
   position: relative;
   top: 0.5%;
-  left: 7%;
+  left: -33%;
   font-size: 30px;
   color: #dee2e6;
 }
@@ -56,7 +56,7 @@ p{
 .p4{
   position: relative;
   top: 0.5%;
-  left: 7%;
+  left: -28%;
   font-size: 30px;
   color: #dee2e6;
 }
@@ -161,7 +161,7 @@ section{
 img{
     position: relative;
     top: 5%;
-    left: 9%;
+    left: 0%;
 }
 
 #wordpress{
@@ -193,22 +193,42 @@ img{
 }
 
 #about {
-    width: 1200px;
+    width: 1000px;
     height: 550px;
     position: absolute;
-    top: 26%;
+    top: 23%;
     left: 15%;
 }
 
-#btnNext {
+.btn-arrow-right {
   position: absolute;
-  top: 92%;
-  left: 50%;
-  height: 50px;
-  width: 120px;
-  text-align: center;
-  font-family: helvetica;
-  font-size: 30px;
-  
+  opacity: .99;
+  z-index: auto;
+  top: 90%;
+  left: 90%;
 }
+
+.btn-arrow-right {
+  border-right: none;
+  margin-left: 10px;
+}
+
+.btn-arrow-right:before{
+  content: '';
+  position: absolute;
+  top: 5px;
+  width: 22px;
+  height: 22px;
+  background: inherit;
+  border-radius: 0px 4px 0px 100px;
+}
+
+.btn-arrow-right:before {
+  transform: rotate(45deg);
+  right: -11px;
+}
+
+
+
+
 

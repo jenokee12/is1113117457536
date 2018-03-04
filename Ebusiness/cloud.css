@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+}
+
+body {
+   background: url("https://wallpaperscraft.com/image/sky_minimalism_clouds_74438_3840x2400.jpg") no-repeat center fixed;
+   background-size: cover;
+   font-family: Ruda;
+   height: 1200px;
+}
+
+h3 {
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    display: inline-block;
+    top: 22%;
+    left: 3%;
+    margin: 15px;
+}
+
+#paas {
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    display: inline-block;
+    top: 22%;
+    left: 27.5%;
+    margin: 15px;
+}
+
+#iaas {
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    display: inline-block;
+    top: 22%;
+    left: 49%;
+    margin: 15px;
+}
+
+#caas {
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    display: inline-block;
+    top: 22%;
+    left: 75%;
+    margin: 15px;
+}
+
+a href {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+}
+
+.paragraph {
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top: 24%;
+    left: 50%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    top: 11%;
+    left: 22%
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    position: absolute;
+    top: 11%;
+    left: 27%;
+    font-family: helvetica;
+}
+
+#par1 {
+    width: 20%;
+    height: 78%;
+    font-size: 27px;
+    text-align: center;
+    font-weight: lighter;
+    padding: 8px;
+    background-color: lightgrey;
+    border-radius: 4px;
+    position: absolute;
+    top: 40%;
+    left: 2%;
+}
+
+#par2 {
+    width: 20%;
+    height: 78%;
+    font-size: 27px;
+    text-align: center;
+    font-weight: lighter;
+    padding: 10px;
+    background-color: lightgrey;
+    border-radius: 4px;
+    position: absolute;
+    top: 40%;
+    left: 27%;
+}
+
+#par3 {
+    width: 20%;
+    height: 78%;
+    font-size: 27px;
+    text-align: center;
+    font-weight: lighter;
+    padding: 10px;
+    background-color: lightgrey;
+    border-radius: 4px;
+    position: absolute;
+    top: 40%;
+    left: 52%;
+}
+
+#par4 {
+    width: 20%;
+    height: 78%;
+    font-size: 27px;
+    text-align: center;
+    font-weight: lighter;
+    padding: 10px;
+    background-color: lightgrey;
+    border-radius: 4px;
+    position: absolute;
+    top: 40%;
+    left: 77%;
+}
+
+iframe {
+    position: absolute;
+    top: 25%;
+    left: 2.5%;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: #525252;
+  opacity: 0.85;
+}
+
+nav ul {
+  float: left;
+  margin: 0px;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+  margin: 6px;
+}
+
+nav ul li a {
+  display: block;
+  font-family: helvetica;
+  color: white;
+  font-size: 20px;
+  padding: 13px 14px;
+  text-decoration: none;
+}
+
+nav ul li:hover a {
+    text-decoration: none;
+    color: white;
+    background-color: powderblue;
+    padding: 8px;
+    border: 5px;
+    border-radius: 2px;
+    margin-top: 2px;
+    margin: 6px;
+}
+
+.btn {
+    background-color: powderblue;
+    text-decoration: none;
+    color: #535353;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: helvetica;
+    font-size: 25px;
+    border-radius: 10px;
+    position: absolute;
+    top: 87%;
+    left: 87%;
+}
+
+.btn:hover {
+      color: white;
+      cursor: pointer;
+}
