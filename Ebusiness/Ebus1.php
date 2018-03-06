@@ -40,7 +40,7 @@
         <br/>
         
         <label for="cloud9" class="label2">
-          <input type="radio" id="cloud9" name="product" checked onClick="disablebtnProceed()"/>
+          <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
           Cloud9 @ $200
         </label>
         
@@ -54,7 +54,7 @@
         <br/>
         
         <label for="gmail" class="label4">
-          <input type="radio" id="gmail" name="product" checked onClick="disablebtnProceed()"/>
+          <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
           Gmail @ $400
         </label>
         
@@ -89,7 +89,7 @@
         <br>
         
         <div class="add_btn">   
-          <button class="add_btn" type="submit" id="btnProceed" disabled >Add to Shopping Cart</button>
+          <button class="add_btn" type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
         </div>  
           
         
