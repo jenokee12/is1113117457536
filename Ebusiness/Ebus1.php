@@ -89,7 +89,7 @@
         <br>
         
         <div class="add_btn">   
-          <button class="add_btn" type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+          <button class="add_btn" type="submit" id="btnProceed" disabled >Add to Shopping Cart</button>
         </div>  
           
         
