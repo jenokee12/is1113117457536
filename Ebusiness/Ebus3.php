@@ -13,7 +13,7 @@ session_start()
         <title>Receipt</title>
         
         <!--Stylesheets -->
-        <link rel="stylesheet" href="EBus.css" type="text/css"/>
+        <link rel="stylesheet" href="Ebus.css" type="text/css"/>
     </head>
     
     <body>
@@ -30,7 +30,7 @@ session_start()
         
         <!-- Adding content to the page -->
         <div class="ebus3">
-            <h6>Receipt</h6>
+            <h1>Receipt</h1>
             
             <?php  
             // Set session variables
@@ -65,7 +65,26 @@ session_start()
             
             <br>
             
-            <a class="btnhome" role="button" href="shophome.html">Home</a>
+            <p class="ebus3_message">
+                Our Software team will be in contact with you shortly to assist you in setting up your software package.
+                
+                <br>
+                <br>
+                
+                In the meantime, you should have received an email from us detailing the next steps for you to take on our journey 
+                in the cloud computing world! Why not take a look? If you have not received an email then contact us on the number below.
+            </p>
+            
+            <a class="home_btn" role="button" href="shophome.html">Home</a>
         </div>
+        
+        <!-- Displaying copyright information -->
+        <footer class="ebus_copyright">
+            <p>
+                <small>&copy; Copyright 2006-2018 Weightless Ltd. All rights reserved. Various trademarks held by their respective owners.</small>
+                <br>
+                <small>Weightless.com Limited, 29 Fake Street, Cork, Co. Cork, Ireland, A11 B22. General Enquiries: +353 1234567 | Fax: +353 1234567 | Sales: + 353 86 1234567</small>
+            </p>
+        </footer>
     </body>
 </html>
