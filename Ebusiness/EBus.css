@@ -282,7 +282,7 @@ nav ul li ul li a:hover {
     cursor: pointer;
 }
 
-.btn_proceed {
+#btn_proceed {
     font-size: 20px;
     padding: 8px;
     border: 1px solid #535353;

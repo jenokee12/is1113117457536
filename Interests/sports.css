@@ -8,7 +8,10 @@ body {
     font-family: helvetica;
     background: url("http://hdqwalls.com/wallpapers/running-track-sn.jpg") no-repeat center fixed;
     background-size: cover;
-    overflow: auto;
+}
+
+html {
+  height: 165%;
 }
 
 .mySlides {
@@ -73,16 +76,6 @@ img {
 .fade1 , .fade2 , .fade3 {
   animation-name: fade;
   animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
 }
 
 /* On smaller screens, decrease text size */
@@ -182,7 +175,7 @@ nav ul li ul li a:hover {
     position: absolute;
     top: 83%;
     left: 0%;
-    color: #5697ff;
+    color: black;
 }
 
 #tabs li {
