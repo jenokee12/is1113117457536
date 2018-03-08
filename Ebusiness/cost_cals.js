@@ -22,7 +22,7 @@ function calcSub(){
 
 
 function calcDisVatTotal(parmSubTotal){
-  var subTotal = parmSubTotal;
+  var subTotal = parmSubTotal
   var discountAmt;
   var vatAmt;
   var totalPrice;
@@ -54,10 +54,4 @@ function enablebtnProceed(){
 
 function disablebtnProceed() {
     $('#btnProceed').prop('disabled', true);
-}
-
-
-function rbChecked(){
-  disablebtnProceed();
-    
 }

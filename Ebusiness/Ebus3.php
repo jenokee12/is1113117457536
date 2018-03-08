@@ -1,90 +1,164 @@
 <?php
-// start the session
+// Start the session
 session_start()
 ?>
 <!DOCTYPE html>
 <html>
     <head>
-        
-        <!--Recquired meta tags-->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
         <title>Receipt</title>
+         <!-- styling page -->
+        <style>
+        /* nav bar */
+                      ul li a{
+ text-decoration:none;
+ color:black;
+ 
+ 
+}
+ul{
+ height:20%;
+ width:100%; 
+ background:#97d6f7;
+ text-align: center;
+ 
+}
+ul li{
+  list-style:none;
+  display:inline;
+  position:relative;
+  margin-left:120px;
+  transform:translate(20%,30%);
+  font-size:22px;
+  
+  
+  
+}
+ul li a:hover{
+color:white;
+background:Blue;
+padding:2%;
+}
+html, body{
+ background: url("https://images.unsplash.com/photo-1464600923926-4ff72f9505f3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=865f5af0ad4d68038d54b1043886b087&auto=format&fit=crop&w=750&q=80") no-repeat center;
+ background-size: cover; 
+ 
+ 
+ 
+}
+/* hover button */
+ 
+ .buttonhover {
+  display: inline-block ;
+  border-radius: 12px;
+  background-color:#362bcf;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  padding:20px;
+  width:150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  
+ }
+ 
+ .button {
+ position:absolute;
+ bottom:25%;
+ left:40%;
+ 
+}
+.logo {
+ position:absolute;
+ top:10%;
+ left:000%;
+ height:25%;
+ width:30%;
+ mix-blend-mode: multiply;
+ 
+ 
+}
+.writing{  
+    
+    font-size:30px;
+    color: black;
+    
+}
+h1 {
+    font-size:40px;
+    color:white;
+}
+        </style>
+        </head>
+           <!-- nav bar -->
+           <body>
+         <ul>
+         
+            <li><a href = "../homepage.html">Home</a></li>
+            <li><a href = "CV/cv_page1.html">Curriculum Vitae </a></li>
+            <li><a href = "intrests./interests.html">Interests</a></li>
+            <li><a href = "Shop/home.html">Shop</a></li>
+            <li><a href = "https://github.com/Alicecreed2/is1113117316183/graphs/commit-activity">GitHub</a></li>
+            
+            
+        </ul> 
         
-        <!--Stylesheets -->
-        <link rel="stylesheet" href="Ebus.css" type="text/css"/>
-    </head>
+
     
     <body>
-        <!-- Navigation bar -->
-        <header>
-           <nav>
-              <ul>
-                  <li><a href="shophome.html">Homepage</a></li>
-                  <li><a href="aboutcloud.html">About Cloud</a></li>
-                  <li><a href="products.html">Products</a></li>
-              </ul>
-          </nav>
-        </header>
         
-        <!-- Adding content to the page -->
-        <div class="ebus3">
-            <h1>Receipt</h1>
-            
-            <?php  
-            // Set session variables
-              $_SESSION["user_name"] = $_POST["user_name"];
-              $_SESSION["user_email"] = $_POST["user_email"];
-            ?>
-            
-            <p class="ebus3_name">
-                <?php
-                // Echo session variables that were set on the previous pages
-                echo "Username: " . $_SESSION["user_name"] . ".";
-                ?>
-            </p>
-            
-            <p class="ebus3_email">
-                <?php
-                // Echo session variables that were set on the previous pages
-                echo "Email: " . $_SESSION["user_email"] . ".";
-                ?>
-            </p>
-            
-            <p class="ebus3_total">
-                <?php
-                // Echo session variables that were set on the previous pages
-                echo "Total: " . $_SESSION["total"] . ".";
-                ?>
-            </p>
-            
-            <br>
-            
-            <h3>Thank you for your purchase!</h3>
-            
-            <br>
-            
-            <p class="ebus3_message">
-                Our Software team will be in contact with you shortly to assist you in setting up your software package.
-                
-                <br>
-                <br>
-                
-                In the meantime, you should have received an email from us detailing the next steps for you to take on our journey 
-                in the cloud computing world! Why not take a look? If you have not received an email then contact us on the number below.
-            </p>
-            
-            <a class="home_btn" role="button" href="shophome.html">Home</a>
+         <div class="logo">
+        <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/857/615855857_758f9e2d-6308-4119-9150-af6a61381d64.png?cb=1520341030" height="150px" width="300px">
         </div>
         
-        <!-- Displaying copyright information -->
-        <footer class="ebus_copyright">
-            <p>
-                <small>&copy; Copyright 2006-2018 Weightless Ltd. All rights reserved. Various trademarks held by their respective owners.</small>
-                <br>
-                <small>Weightless.com Limited, 29 Fake Street, Cork, Co. Cork, Ireland, A11 B22. General Enquiries: +353 1234567 | Fax: +353 1234567 | Sales: + 353 86 1234567</small>
-            </p>
-        </footer>
+        <center>
+        <h1>Purchase Receipt</h1>
+        <div class="writing">
+        <?php  
+        // Set session variables
+          $_SESSION["user_name"] = $_POST["user_name"];
+          $_SESSION["user_email"] = $_POST["user_email"];
+           $_SESSION["user_no"] = $_POST["user_no"];
+        ?>
+        
+        <p>
+            <?php
+            // Echo session variables that were set on the previous pages
+            echo "Name: " . $_SESSION["user_name"] . ".";
+            ?>
+        </p>
+        
+        <p>
+            <?php
+            // Echo session variables that were set on the previous pages
+            echo "Email: " . $_SESSION["user_email"] . ".";
+            ?>
+        </p>
+        
+          <p>
+            <?php
+            // Echo session variables that were set on the previous pages
+            echo "Number: " . $_SESSION["user_no"] . ".";
+            ?>
+        </p>
+        
+        
+        <p>
+            <?php
+            // Echo session variables that were set on the previous pages
+            echo "Total: $ " . $_SESSION["total"] . ".";
+            ?>
+        </p>
+        
+        
+        </div>
+        
+         <div class="button">
+      <a href="../Shop/home.html" class="buttonhover"> Return to Shop Homepage</a>
+   </div>
+        </center>
+        
+    
     </body>
 </html>
