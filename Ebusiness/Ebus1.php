@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="cost_calc.js"></script>
+        <script src="cost_cals.js"></script>
 
         <link rel="stylesheet" href="Ebus.css" type="text/css"/>
         
@@ -20,7 +20,7 @@
                 
                 <nav>
                   
-                        <a href="../HomePage.html">
+                        <a href="../shophomepage.html">
                                 <img class = "img2" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Status_iucn_LC_icon_blank.svg/2000px-Status_iucn_LC_icon_blank.svg.png" alt="homeicon">
                         </a>
                     <ul>
