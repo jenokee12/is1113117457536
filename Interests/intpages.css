@@ -146,23 +146,16 @@ a.animated-button.victoria-two:after {
 	transform: translateX(-50%) translateY(-50%) rotate(25deg);
 }
      
-section {
- display: inline-block;
- margin:  0.25rem;
- padding:  1rem;
- width:  25%;
- height: 10%;
- background:  #efefef;
- position: relative;
- top: 25%;
- left: 5%;
-}
-
-
 #par3 {
  margin:  1rem 0;
- color: #525252;
+ color: black;
  text-align: center;
+ font-size: 40px;
+ width: 90%;
+ height: 90%;
+ position: absolute;
+ top: 30%;
+ left: 5%;
 }
 
 h1 {
@@ -170,7 +163,7 @@ h1 {
     text-align: center;
     position: relative;
     top: -25%;
-    font-size: 20px;
+    font-size: 50px;
 }
 
 nav {

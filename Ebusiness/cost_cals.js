@@ -1,5 +1,6 @@
 /* global $ */
 
+// function to calculate the subtotal depending on what product is checked
 function calcSub(){
     
     var argSubTotal;
@@ -20,7 +21,7 @@ function calcSub(){
     calcDisVatTotal(argSubTotal);
 }
 
-
+// function to calculate the discounted amount of subtotal
 function calcDisVatTotal(parmSubTotal){
   var subTotal = parmSubTotal
   var discountAmt;
@@ -47,7 +48,7 @@ function display(parm1, parm2, parm3, parm4){
   enablebtnProceed();
 }
 
-
+// function enabling and disabling btnProceed
 function enablebtnProceed(){
     $('#btnProceed').prop('disabled', false);
 }

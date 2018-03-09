@@ -110,3 +110,17 @@ footer {
     width:110%;
     height:20px;
 }
+
+img {
+  position: absolute;
+  top: -0.5%;
+  left: 90%;
+  cursor: pointer;
+}
+
+#github {
+  position: absolute;
+  top: -0.5%;
+  left: 95%;
+  cursor: pointer;
+}

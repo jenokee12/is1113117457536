@@ -6,11 +6,15 @@ session_start()
 <html>
     <head>
         <title>Receipt</title>
+         <!-- Recquired meta tags -->
         <meta charset="UTF-8">
+        
+         <!-- CSS stylesheet -->
         <link rel="stylesheet" href="Ebus.css" type="text/css"/>
     </head>
     <body>
         <header>
+             <!-- Navigation Bar -->
            <nav>
               <ul>
                   <li><a href="shophome.html">Homepage</a></li>
@@ -20,7 +24,6 @@ session_start()
             </nav>
         
         </header>
-        
         <div class="container6">
         <h4 class="ebus3head">Purchase Receipt</h4>
         
