@@ -12,16 +12,14 @@ session_start()
     </head>
     <body>
         <header>
-                <nav>
-                        <a href="../HomePage.html">
-                                <img class = "img2" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Status_iucn_LC_icon_blank.svg/2000px-Status_iucn_LC_icon_blank.svg.png" alt="homeicon">
-                        </a>
-                    <ul>
-                        <li><a href="../Cloud/shophomepage.html">Shop Home</a></li>
-                            <li><a href="../Cloud/aboutcloud.html">About Cloud</a></li>
-                        <li><a href="../eBusiness/Ebus1.php">Purchase Products</a></li>
-                    </ul>
-                </nav>
+           <nav>
+              <ul>
+                  <li><a href="shophome.html">Homepage</a></li>
+                  <li><a href="#">About Cloud</a></li>
+                  <li><a href="products.html">Products</a>
+              </ul>
+            </nav>
+        
         </header>
         
         <div class="container6">
