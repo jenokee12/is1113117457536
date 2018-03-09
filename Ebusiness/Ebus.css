@@ -181,8 +181,8 @@ nav ul li:hover a {
     left:27%;
     width:630px;
     height:550px; 
-    border:6px outset #8c1f2f;
-    background:#e9e8ed; 
+    border:6px outset #525252;
+    background: lightgrey; 
     margin:auto
 }
 
@@ -193,8 +193,8 @@ nav ul li:hover a {
     left:29%;
     width:580px;
     height:500px; 
-    border:6px outset #8c1f2f;
-    background:#e9e8ed; 
+    border:6px outset #525252;
+    background: lightgrey; 
     margin:auto
 }
 
@@ -206,8 +206,8 @@ nav ul li:hover a {
     left:27%;
     width:580px;
     height:300px; 
-    border:6px outset #8c1f2f;
-    background:#e9e8ed; 
+    border:6px outset #525252;
+    background: lightgrey; 
     margin:auto
 }
 
